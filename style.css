@@ -1,0 +1,75 @@
+html{
+  scroll-behavior: smooth !important;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  font-family: "Nunito";
+
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.home{
+width: 100%;
+}
+
+.homeIMG{
+width: 100%;
+position: relative;
+}
+
+.homeLogo{
+width:20%;
+
+}
+
+
+nav{
+display: flex;
+flex-direction: row;
+gap: 40px;
+font-family: 'Nunito';
+align-items: center;
+}
+
+.navInfo{
+font-size: 20px;
+
+}
+
+nav{
+background-color: #2994B2B2;
+height: 50px;
+}
+
+.line{
+font-size: 25px;
+}
+
+.background{
+  background-color: #868686;
+  opacity: .6;
+  height: 40px;
+  width: 20%;
+  border-radius: 15px;
+  text-align: center;
+
+}
+
+.button{
+font-family: 'Nunito';
+font-size: 30px;
+}
+
+#shopCollection{
+width: 100%;
+  background-image: url(images/landingImage.png);
+  text-align: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
