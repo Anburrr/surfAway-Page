@@ -33,6 +33,7 @@ flex-direction: row;
 gap: 40px;
 font-family: 'Nunito';
 align-items: center;
+opacity: .7;
 }
 
 .navInfo{
@@ -43,6 +44,7 @@ font-size: 20px;
 nav{
 background-color: #2994B2B2;
 height: 50px;
+width: 100%;
 }
 
 .line{
@@ -50,26 +52,62 @@ font-size: 25px;
 }
 
 .background{
-  background-color: #868686;
-  opacity: .6;
+  background-color: #474744E5;
+  opacity: .7;
   height: 40px;
   width: 20%;
   border-radius: 15px;
   text-align: center;
+  margin-top: 150px;
+  margin-left: 750px;
 
 }
 
 .button{
 font-family: 'Nunito';
 font-size: 30px;
+color: #FFFBE0;
 }
 
 #shopCollection{
 width: 100%;
   background-image: url(images/landingImage.png);
   text-align: center;
-  justify-content: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-items: center;
+}
+
+.homeLogo{
+margin-left:750px;
+}
+
+
+.title{
+font-family: 'Nunito';
+font-weight: 100;
+font-size: 40px;
+margin-left: 150px;
+margin-bottom: -10px;
+}
+
+.item1{
+width: auto;
+height: 350px;
+margin-top: -140px;
+margin-left: 140px;
+}
+
+.item2{
+margin-top: -260px;
+margin-left: 410px;
+}
+
+.item3{
+margin-left: 670px;
+margin-top: -460px;
 }
