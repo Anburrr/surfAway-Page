@@ -4,6 +4,14 @@ html{
   overflow-y: scroll;
   scroll-behavior: smooth;
   font-family: "Nunito";
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
 
 }
 
@@ -51,16 +59,17 @@ width: 100%;
 font-size: 25px;
 }
 
-.background{
+.shopBackground{
   background-color: #474744E5;
   opacity: .7;
-  height: 40px;
-  width: 20%;
-  border-radius: 15px;
+  padding: 5px 20px;
   text-align: center;
   margin-top: 150px;
-  margin-left: 750px;
-
+  border-radius: 15px;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
 }
 
 .button{
@@ -82,8 +91,9 @@ width: 100%;
   justify-items: center;
 }
 
-.homeLogo{
-margin-left:750px;
+.surdAwayIMG{
+display: flex;
+flex-direction: column;
 }
 
 
