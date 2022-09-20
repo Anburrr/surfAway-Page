@@ -6,12 +6,11 @@ html{
   font-family: "Nunito";
   padding: 0;
   margin: 0;
-
 }
 
 body {
   padding: 0;
-  margin: 0;
+  margin: 0; 
 
 }
 
@@ -31,29 +30,32 @@ position: relative;
 
 .homeLogo{
 width:20%;
-
 }
 
+.logo{
+text-align: left;
+}
 
 nav{
-display: flex;
-flex-direction: row;
-gap: 40px;
 font-family: 'Nunito';
-align-items: center;
 opacity: .7;
-}
-
-.navInfo{
-font-size: 20px;
-
-}
-
-nav{
 background-color: #2994B2B2;
 height: 50px;
 width: 100%;
+
 }
+
+.navBar{
+text-align: right;
+display:flex;
+
+}
+
+
+.navInfo{
+font-size: 20px;
+}
+
 
 .line{
 font-size: 25px;
@@ -91,11 +93,6 @@ width: 100%;
   justify-items: center;
 }
 
-.surdAwayIMG{
-display: flex;
-flex-direction: column;
-}
-
 
 .title{
 font-family: 'Nunito';
@@ -120,4 +117,8 @@ margin-left: 410px;
 .item3{
 margin-left: 670px;
 margin-top: -460px;
+}
+
+.logo{
+
 }
