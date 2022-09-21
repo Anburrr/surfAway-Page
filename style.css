@@ -89,7 +89,7 @@ width: 100%;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 130vh;
   justify-items: center;
 
 }
@@ -112,19 +112,19 @@ padding: 15px;
 width: auto;
 height: 350px;
 position: absolute;
-left: 50px;
+left: 150px;
 top: 120px;
 }
 
 .item2{
 position: absolute;
-left: 300px;
+left: 400px;
 }
 
 .item3{
 position: absolute;
-left: 550px;
-top: 100px
+left: 650px;
+top: 120px
 }
 
 .yellowCurls{
@@ -140,16 +140,35 @@ padding-top: 150px;
 
 .item4{
 position: absolute;
-bottom: 50px;
-left: 950px;
+top: 120px;
+left: 1400px;
 }
 
 .item5{
 position: absolute;
-bottom: 50px;
-left: 1200px;
+top: 120px;
+left: 1650px;
 }
 
 .item6{
 position: absolute;
+left: 1400px;
+top: 430px;
+}
+
+.item7{
+position: absolute;
+left: 1650px;
+top: 430px;
+}
+
+.blackCurls{
+position: absolute;
+left: 0;
+top: 730px;
+}
+
+.collectionLogo{
+position: absolute;
+left: 990px;
 }
