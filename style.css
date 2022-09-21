@@ -39,7 +39,6 @@ text-align: left;
 nav{
 font-family: 'Nunito';
 opacity: .7;
-background-color: #2994B2B2;
 height: 50px;
 width: 100%;
 
@@ -47,13 +46,14 @@ width: 100%;
 
 .navBar{
 text-align: right;
-display:flex;
-
+align-items: center;
+justify-content: center;
 }
 
 
 .navInfo{
 font-size: 20px;
+padding: 15px ;
 }
 
 
@@ -91,8 +91,13 @@ width: 100%;
   flex-direction: column;
   height: 100vh;
   justify-items: center;
+
 }
 
+#ourCollection{
+position: relative;
+width: 100%;
+}
 
 .title{
 font-family: 'Nunito';
@@ -100,25 +105,51 @@ font-weight: 100;
 font-size: 40px;
 margin-left: 150px;
 margin-bottom: -10px;
+padding: 15px;
 }
 
 .item1{
 width: auto;
 height: 350px;
-margin-top: -140px;
-margin-left: 140px;
+position: absolute;
+left: 50px;
+top: 120px;
 }
 
 .item2{
-margin-top: -260px;
-margin-left: 410px;
+position: absolute;
+left: 300px;
 }
 
 .item3{
-margin-left: 670px;
-margin-top: -460px;
+position: absolute;
+left: 550px;
+top: 100px
 }
 
-.logo{
+.yellowCurls{
+position: absolute;
+right: 0;
 
+z-index: -1;
+}
+
+.surfAwayIMG{
+padding-top: 150px;
+}
+
+.item4{
+position: absolute;
+bottom: 50px;
+left: 950px;
+}
+
+.item5{
+position: absolute;
+bottom: 50px;
+left: 1200px;
+}
+
+.item6{
+position: absolute;
 }
