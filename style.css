@@ -4,8 +4,7 @@ html{
   overflow-y: scroll;
   scroll-behavior: smooth;
   font-family: "Nunito";
-  padding: 0;
-  margin: 0;
+
 }
 
 body {
@@ -108,67 +107,63 @@ margin-bottom: -10px;
 padding: 15px;
 }
 
-.item1{
-width: auto;
-height: 350px;
-position: absolute;
-left: 150px;
-top: 120px;
-}
-
-.item2{
-position: absolute;
-left: 400px;
-}
-
-.item3{
-position: absolute;
-left: 650px;
-top: 120px
-}
-
 .yellowCurls{
 position: absolute;
 right: 0;
-
+top: 350px;
 z-index: -1;
+}
+
+.blueCurls {
+  z-index: -1;
 }
 
 .surfAwayIMG{
 padding-top: 150px;
 }
 
-.item4{
-position: absolute;
-top: 120px;
-left: 1400px;
-}
-
-.item5{
-position: absolute;
-top: 120px;
-left: 1650px;
-}
-
-.item6{
-position: absolute;
-left: 1400px;
-top: 430px;
-}
-
-.item7{
-position: absolute;
-left: 1650px;
-top: 430px;
-}
 
 .blackCurls{
 position: absolute;
 left: 0;
 top: 730px;
+z-index: -1;
 }
 
 .collectionLogo{
 position: absolute;
 left: 990px;
+}
+
+
+.collectionItems {
+display: flex;
+
+gap: 10px;
+
+}
+
+.item1 {
+
+}
+
+.item2 {
+  bottom: -50px;
+  width:270px;
+  height: auto;
+}
+
+.item3 {
+  width:270px;
+}
+
+.itemSquare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.imgSize{
+width: auto; 
 }
