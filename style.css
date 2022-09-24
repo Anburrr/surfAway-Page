@@ -138,19 +138,27 @@ left: 990px;
 
 .collectionItems {
 display: flex;
-
 gap: 10px;
+margin: 0 auto;
+justify-content: center;
 
+}
+
+.teeContainer {
+  position: relative;
+  height: 100%;
 }
 
 .item1 {
-
+  width: 215.86px;
+  height: auto;
 }
 
 .item2 {
-  bottom: -50px;
-  width:270px;
+  position: relative;
+  width: 215.86px;
   height: auto;
+  vertical-align: middle;
 }
 
 .item3 {
