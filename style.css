@@ -135,8 +135,18 @@ position: absolute;
 left: 990px;
 }
 
+.collectionLogo{
+position: relative;
+display: flex;
+flex-direction: column;
+}
 
-.collectionItems {
+.item1{
+position: absolute;
+height: 345px;
+margin: -140px 0px 0px 100px;
+}
+/* .collectionItems {
 display: flex;
 gap: 10px;
 margin: 0 auto;
@@ -165,7 +175,7 @@ right: 100px;
 
 .item3 {
   width:270px;
-}
+} */
 
 .itemSquare {
   display: grid;
@@ -173,7 +183,7 @@ right: 100px;
   grid-template-rows: 1fr 1fr;
   gap: 20px;
   position: relative;
-  left: 140px;
+
 }
 
 .imgSize{
