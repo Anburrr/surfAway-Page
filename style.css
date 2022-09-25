@@ -153,7 +153,7 @@ margin: -100px 0px 0px 360px;
   margin: -150px 0px 0px 600px;
   }
 
-.item4{
+/* .item4{
   position: absolute;
   margin: -60px 0px 0px 1370px;
 }
@@ -171,38 +171,9 @@ margin: -100px 0px 0px 360px;
 .item7{
   position: absolute;
   margin: 195px 0px 0px 1600px;
-}
-
-/* .collectionItems {
-display: flex;
-gap: 10px;
-margin: 0 auto;
-justify-content: center;
-position: relative;
-bottom: 150px;
-right: 100px;
-}
-
-.teeContainer {
-  position: relative;
-  height: 100%;
-}
-
-.item1 {
-  width: 215.86px;
-  height: auto;
-}
-
-.item2 {
-  position: relative;
-  width: 215px;
-  height: auto;
-  vertical-align: middle;
-}
-
-.item3 {
-  width:270px;
 } */
+
+
 
 .itemSquare {
   display: grid;
@@ -219,7 +190,7 @@ width: auto;
 width: 100%;
 background-image: url(images/4\ 1.png);
 height: 200vh;
-margin: 1420px 0px 0px 0px;
+margin: 980px 0px 0px 0px;
 background-repeat: no-repeat;
 background-size: contain;
 }
