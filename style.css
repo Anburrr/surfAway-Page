@@ -181,12 +181,12 @@ width: auto;
 }
 
 #Gallery{
-position: relative;
-top: 95px;
+width: 100%;
+background-image: url(images/4\ 1.png);
+height: 200vh;
+margin: 900px 0px 0px 0px;
 background-repeat: no-repeat;
-background-size: cover;
-height: 130vh;
-
+background-size: contain;
 }
 
 .image{
