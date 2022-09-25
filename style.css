@@ -141,7 +141,9 @@ display: flex;
 gap: 10px;
 margin: 0 auto;
 justify-content: center;
-
+position: relative;
+bottom: 150px;
+right: 100px;
 }
 
 .teeContainer {
@@ -156,7 +158,7 @@ justify-content: center;
 
 .item2 {
   position: relative;
-  width: 215.86px;
+  width: 215px;
   height: auto;
   vertical-align: middle;
 }
@@ -170,8 +172,47 @@ justify-content: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 20px;
+  position: relative;
+  left: 140px;
 }
 
 .imgSize{
 width: auto; 
+}
+
+#Gallery{
+position: relative;
+top: 95px;
+background-repeat: no-repeat;
+background-size: cover;
+height: 130vh;
+
+}
+
+.image{
+font-family: 'Nunito';
+font-size: 42.5px;
+margin: -760px 0px 0px 950px;
+}
+
+
+
+#ourStory{
+position: relative;
+background-color: lightskyblue;
+}
+
+.yellowCurls-Story{
+position: relative;
+margin: 0px 0px 200px 100px;
+}
+
+.surfIMG{
+position: absolute;
+padding: ;
+}
+
+.blackCurls-Story{
+position: absolute;
+z-index: -1;
 }
